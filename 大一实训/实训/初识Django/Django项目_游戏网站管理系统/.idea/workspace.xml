@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61a908cc-cc39-4aa9-88c7-11006f1d054e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bYl6VLWrpuN6rJSPcyqSlCnGcN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="Django server.Django项目_游戏网站管理系统">
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Django项目_游戏网站管理系统" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Game_warframe_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Game_warframe_1/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Django项目_游戏网站管理系统" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Game_warframe_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Game_warframe_1/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Django项目_游戏网站管理系统" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Django项目_游戏网站管理系统" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Django项目_游戏网站管理系统.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.urls" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61a908cc-cc39-4aa9-88c7-11006f1d054e" name="Default Changelist" comment="" />
+      <created>1588816732732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588816732732</updated>
+      <workItem from="1588816734918" duration="1313000" />
+      <workItem from="1588902052969" duration="2676000" />
+      <workItem from="1588924562294" duration="2812000" />
+      <workItem from="1588984039661" duration="1711000" />
+      <workItem from="1588990776980" duration="1058000" />
+      <workItem from="1591144446559" duration="746000" />
+      <workItem from="1592748381955" duration="53000" />
+      <workItem from="1592793711643" duration="434000" />
+      <workItem from="1593133201038" duration="10110000" />
+      <workItem from="1593218877636" duration="730000" />
+      <workItem from="1593226053748" duration="4417000" />
+      <workItem from="1593309882513" duration="1477000" />
+      <workItem from="1593316405757" duration="10000" />
+      <workItem from="1593416391221" duration="503000" />
+      <workItem from="1593585665432" duration="3947000" />
+      <workItem from="1593589806100" duration="88000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="445" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593228111989">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="445" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593228111989" />
+    <state x="657" y="317" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593227549812">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="317" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593227549812" />
+    <state x="690" y="222" key="FileChooserDialogImpl" timestamp="1593416891536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="222" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593416891536" />
+    <state width="904" height="54" key="GridCell.Tab.0.bottom" timestamp="1593589616108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="904" height="54" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593589616108" />
+    <state width="904" height="54" key="GridCell.Tab.0.center" timestamp="1593589616108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="904" height="54" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593589616108" />
+    <state width="904" height="54" key="GridCell.Tab.0.left" timestamp="1593589616108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="904" height="54" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593589616108" />
+    <state width="904" height="54" key="GridCell.Tab.0.right" timestamp="1593589616108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="904" height="54" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593589616108" />
+    <state x="815" y="258" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1593227967585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="815" y="258" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593227967585" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Django_$views.coverage" NAME="views Coverage Results" MODIFIED="1593158289157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Game_warframe_1" />
+    <SUITE FILE_PATH="coverage/Django_$urls.coverage" NAME="urls Coverage Results" MODIFIED="1593135970903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Game_warframe_1" />
+  </component>
+</project>

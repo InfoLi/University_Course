@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ui>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+</ui>
+
+<ui>
+    <li>{{ name }}</li>
+    <li>{{ password }}</li>
+</ui>
+
+{% for i in Users %}
+    <li>{{i.u_Name  }}</li>
+    <li>{{ i.u_PassWord }}</li>
+{% endfor %}
+
+</body>
+</html>
