@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+    <head>
+        {% load static %}
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/material-dash.css' %}">
+        <link rel="stylesheet" href="{% static 'css/layui.css' %}">
+        <link rel="stylesheet" href="{% static 'css/org.css' %}">
+        <title>主页</title>
+    </head>
+    <!---用户功能导航栏-->
+    <body class="page-orange">
+        <div class="wrapper">
+            <div class="sidebar" data-active-color="rose" data-background-color="black" data-image="img/siderbar-1.jpg">
+                    
+                <div class="sidebar-background" style="background-image: url(/static/img/sidebar-1.jpg) "></div>
+
+                <div class="logo">
+                    <a class="simple-text logo-mini"></a>
+                    <a class="simple-text logo-normal">
+                        民宿信息管理系统
+                    </a>
+                </div>
+
+                <div class="sidebar-wrapper ps-container ps-theme-def-ault" data-ps-id="labf33ef-3aef-3f09-ded3-a4bc038f7ee8">
+
+                    <div class="user">
+                        <div class="photo">
+                            <img src="{% static 'img/city02.png' %}">
+                        </div>
+                        <div class="info">
+                            <a data-toggle="collapse" class="" aria-expanded="true">
+                                <span>
+                                    {{city0}}
+                                </span>
+                            </a>
+                            <div class="clearfix"></div>
+                            <div class="collapse in" id="collapseExample" aria-expanded="true">
+                                <ul class="nav">
+                                    <li>
+                                        <a href="{% url 'index'%}">
+                                            <span class="sidebar-mini"> </span>
+                                            <span class="sidebar-normal">返回城市选择</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <ul class="nav">
+                        <li>
+                            <a href="{% url 'mainpage'%}">
+                                <p> 民宿地理位置 </p>
+                            </a>
+                        </li>
+                        <li >
+                            <a href="{% url 'pricepage'%}">
+                                <p> 民宿价格分布 </p>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="{% url 'recommendedpage'%}">
+                                <p> 人气民宿推荐 </p>
+                            </a>
+                        </li>
+                    </ul>
+                        
+                </div>
+            </div>
+            <!---主要内容-->
+            <div class="main-panel ps-container ps-theme-default ps-active-y" data-ps-id="340b7d6b-670e-ab3e-6766-d57453deda36">
+                <main class="content" style="background-image:url(/static/img/350.png);  background-repeat:no-repeat; background-size:cover;">
+                    <table class="layui-table">
+                        <colgroup>
+                            <col >
+                            <col width="200">
+                            <col width="150">
+                            <col width="150">
+                          </colgroup>
+                          <thead>
+                            <tr>
+                              <th>民宿名字</th>
+                              <th>价格/晚</th>
+                              <th>评分</th>
+                              <th>评论数</th>
+                            </tr> 
+                          </thead>
+                          <tbody>
+                            <!-- <tr>
+                              <td>许闲心</td>
+                              <td>2016-11-28</td>
+                              <td>于千万人之中遇见你所遇见的人，于千万年之中，时间的无涯的荒野里…</td>
+                              <td>于千万人之中</td>
+                            </tr> -->
+                            {% for item in datalist%}
+                            <tr>
+                                <td>{{item.0}}</td>
+                                <td>{{item.1}}</td>
+                                <td>{{item.4}}</td>
+                                <td>{{item.3}}</td>
+                            </tr>
+                            {% endfor %}
+                          </tbody>
+                    </table>
+                </main>
+            </div>
+        </div>       
+    </body>
+</html>

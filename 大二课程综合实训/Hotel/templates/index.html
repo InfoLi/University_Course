@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+    <head>
+        <title>首页</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/layui.css' %}">
+        <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    </head>
+    <body>
+        <div class="content" style="background-image:url(/static/img/hotel-1.jpeg);">
+            <h1 class="title">欢迎使用民宿分析系统</h1>
+            <div class="registercontent">
+                <div class="list1">
+                    <form action='' method="POST" >
+                        <input class="input1" type="text" placeholder="请输入城市的名字" name="city" >
+                        <input type="submit" class="layui-btn" style="margin-left: 50%; margin-top: 10%;" value="确认">
+                    </form>
+                </div>
+            </div>
+        </div>
+        {% if messages %}
+            {% for msg in messages %}
+                <script>
+                    alert('{{msg.message}}');
+                </script>
+            {% endfor %}
+        {% endif %}
+    </body>
+</html>
