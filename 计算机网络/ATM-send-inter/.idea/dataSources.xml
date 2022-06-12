@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="atm" uuid="81be9ef0-0a41-4568-965e-0b1fc48777be">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\ATM-send-inter\atm.db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="atm [2]" uuid="571dfed3-2487-4200-947e-83c232700b32">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\ATM-send-inter\atm.db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="atm [3]" uuid="f4d54446-54d2-4efa-a745-73d253585f4c">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\ATM-send-inter\atm.db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="atm [4]" uuid="19ea2a96-fd89-43d7-bc10-317989a76fa6">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\ATM-send-inter\atm.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
