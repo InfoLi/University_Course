@@ -1,0 +1,5 @@
+num = int(input(""))
+num_2 = bin(num)
+num_8 = oct(num)
+num_16 = hex(num)
+print(num,num_2,num_8,num_16)

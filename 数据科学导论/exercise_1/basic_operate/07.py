@@ -1,0 +1,11 @@
+A = input("enter setA: ")
+B = input("enter setB: ")
+setA = A.split()
+setB = B.split()
+
+print("setA & setB")
+print(set(setA)&set(setB))
+print("setA | setB")
+print(set(setA)|set(setB))
+print("setA-setB")
+print(set(setA)-set(setB))

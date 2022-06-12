@@ -1,0 +1,5 @@
+A = input("enter num A list:")
+B = input("enter num B list:")
+A_list = A.split(" ")
+B_list = B.split(" ")
+print(dict(zip(A_list,B_list)))
