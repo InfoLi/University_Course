@@ -1,0 +1,3 @@
+﻿  矩阵简化.cpp
+F:\C++\算法实验\实验四\Project1\矩阵简化.cpp(141,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  Project1.vcxproj -> F:\C++\算法实验\实验四\Project1\Debug\Project1.exe

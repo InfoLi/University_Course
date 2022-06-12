@@ -1,0 +1,4 @@
+﻿  main.cpp
+F:\C++\算法实验\实验二\find_i\main.cpp(57,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+F:\C++\算法实验\实验二\find_i\main.cpp(68,14): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  find_i.vcxproj -> F:\C++\算法实验\实验二\find_i\Debug\find_i.exe
